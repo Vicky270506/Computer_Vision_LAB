@@ -1,0 +1,612 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_19f20/fast
+gmake: Warning: File 'Makefile' has modification time 0.38 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_19f20.dir/build.make CMakeFiles/cmTC_19f20.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File 'CMakeFiles/cmTC_19f20.dir/flags.make' has modification time 0.36 s in the future
+Building C object CMakeFiles/cmTC_19f20.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor -o CMakeFiles/cmTC_19f20.dir/src.c.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c"
+cc1: warning: command-line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_19f20
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19f20.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_19f20.dir/src.c.o -o cmTC_19f20 
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_66520/fast
+gmake: Warning: File 'Makefile' has modification time 0.28 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_66520.dir/build.make CMakeFiles/cmTC_66520.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File 'CMakeFiles/cmTC_66520.dir/flags.make' has modification time 0.26 s in the future
+Building CXX object CMakeFiles/cmTC_66520.dir/src.cxx.o
+/usr/bin/c++   -O3 -DNDEBUG -std=c++11 -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes -o CMakeFiles/cmTC_66520.dir/src.cxx.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx"
+cc1plus: warning: command-line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_66520
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66520.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_66520.dir/src.cxx.o -o cmTC_66520 
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bc249/fast
+gmake: Warning: File 'Makefile' has modification time 0.25 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_bc249.dir/build.make CMakeFiles/cmTC_bc249.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File 'CMakeFiles/cmTC_bc249.dir/flags.make' has modification time 0.23 s in the future
+Building CXX object CMakeFiles/cmTC_bc249.dir/src.cxx.o
+/usr/bin/c++   -O3 -DNDEBUG -std=c++11 -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes -o CMakeFiles/cmTC_bc249.dir/src.cxx.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx"
+cc1plus: warning: command-line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_bc249
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc249.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_bc249.dir/src.cxx.o -o cmTC_bc249 
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7a394/fast
+gmake: Warning: File 'Makefile' has modification time 0.12 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_7a394.dir/build.make CMakeFiles/cmTC_7a394.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File 'CMakeFiles/cmTC_7a394.dir/flags.make' has modification time 0.1 s in the future
+Building C object CMakeFiles/cmTC_7a394.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_7a394.dir/src.c.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c"
+cc1: warning: command-line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_7a394
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a394.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_7a394.dir/src.c.o -o cmTC_7a394 
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dac66/fast
+gmake: Warning: File 'Makefile' has modification time 0.075 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_dac66.dir/build.make CMakeFiles/cmTC_dac66.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File 'CMakeFiles/cmTC_dac66.dir/flags.make' has modification time 0.056 s in the future
+Building C object CMakeFiles/cmTC_dac66.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override -o CMakeFiles/cmTC_dac66.dir/src.c.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c"
+cc1: warning: command-line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_dac66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dac66.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_dac66.dir/src.c.o -o cmTC_dac66 
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_50ed8/fast
+gmake: Warning: File 'Makefile' has modification time 0.056 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_50ed8.dir/build.make CMakeFiles/cmTC_50ed8.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File 'CMakeFiles/cmTC_50ed8.dir/flags.make' has modification time 0.039 s in the future
+Building C object CMakeFiles/cmTC_50ed8.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_50ed8.dir/src.c.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c"
+cc1: warning: command-line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_50ed8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50ed8.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_50ed8.dir/src.c.o -o cmTC_50ed8 
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_816a2/fast
+gmake: Warning: File 'Makefile' has modification time 0.045 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_816a2.dir/build.make CMakeFiles/cmTC_816a2.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File 'CMakeFiles/cmTC_816a2.dir/flags.make' has modification time 0.025 s in the future
+Building CXX object CMakeFiles/cmTC_816a2.dir/src.cxx.o
+/usr/bin/c++   -O3 -DNDEBUG -std=c++11 -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_816a2.dir/src.cxx.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx"
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_816a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_816a2.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_816a2.dir/src.cxx.o -o cmTC_816a2 
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_eda79/fast
+gmake: Warning: File 'Makefile' has modification time 0.035 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_eda79.dir/build.make CMakeFiles/cmTC_eda79.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File 'CMakeFiles/cmTC_eda79.dir/flags.make' has modification time 0.018 s in the future
+Building C object CMakeFiles/cmTC_eda79.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_eda79.dir/src.c.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c"
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_eda79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eda79.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_eda79.dir/src.c.o -o cmTC_eda79 
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+===== END =====
+
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/opencv/cmake/checks/cpu_sse3.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_22aab/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_22aab.dir/build.make CMakeFiles/cmTC_22aab.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_22aab.dir/cpu_sse3.cpp.o
+/usr/bin/c++   -O3 -DNDEBUG -std=c++11 -fPIE -o CMakeFiles/cmTC_22aab.dir/cpu_sse3.cpp.o -c "/mnt/d/vignesh/Computer Vision/opencv/cmake/checks/cpu_sse3.cpp"
+In file included from /mnt/d/vignesh/Computer Vision/opencv/cmake/checks/cpu_sse3.cpp:1:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/pmmintrin.h: In function ‘int main()’:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/pmmintrin.h:75:1: error: inlining failed in call to ‘always_inline’ ‘__m128 _mm_moveldup_ps(__m128)’: target specific option mismatch
+   75 | _mm_moveldup_ps (__m128 __X)
+      | ^~~~~~~~~~~~~~~
+/mnt/d/vignesh/Computer Vision/opencv/cmake/checks/cpu_sse3.cpp:5:24: note: called from here
+    5 |     v = _mm_moveldup_ps(u); // SSE3
+      |         ~~~~~~~~~~~~~~~^~~
+/usr/lib/gcc/x86_64-linux-gnu/13/include/pmmintrin.h:75:1: error: inlining failed in call to ‘always_inline’ ‘__m128 _mm_moveldup_ps(__m128)’: target specific option mismatch
+   75 | _mm_moveldup_ps (__m128 __X)
+      | ^~~~~~~~~~~~~~~
+/mnt/d/vignesh/Computer Vision/opencv/cmake/checks/cpu_sse3.cpp:5:24: note: called from here
+    5 |     v = _mm_moveldup_ps(u); // SSE3
+      |         ~~~~~~~~~~~~~~~^~~
+gmake[1]: *** [CMakeFiles/cmTC_22aab.dir/build.make:78: CMakeFiles/cmTC_22aab.dir/cpu_sse3.cpp.o] Error 1
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_22aab/fast] Error 2
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e75b7/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_e75b7.dir/build.make CMakeFiles/cmTC_e75b7.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e75b7.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_e75b7.dir/src.c.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c"
+cc1: warning: command-line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_e75b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e75b7.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_e75b7.dir/src.c.o -o cmTC_e75b7 
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3f6a2/fast
+gmake: Warning: File 'Makefile' has modification time 0.8 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_3f6a2.dir/build.make CMakeFiles/cmTC_3f6a2.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File 'CMakeFiles/cmTC_3f6a2.dir/flags.make' has modification time 0.78 s in the future
+Building C object CMakeFiles/cmTC_3f6a2.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_3f6a2.dir/src.c.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c"
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_3f6a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f6a2.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_3f6a2.dir/src.c.o -o cmTC_3f6a2 
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6e53c/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_6e53c.dir/build.make CMakeFiles/cmTC_6e53c.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6e53c.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -std=c++11 -fPIE    -Wno-missing-prototypes -o CMakeFiles/cmTC_6e53c.dir/src.cxx.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx"
+cc1plus: warning: command-line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_6e53c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e53c.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_6e53c.dir/src.cxx.o -o cmTC_6e53c 
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option ‘-Wno-implicit-const-int-float-conversion’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5ba73/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_5ba73.dir/build.make CMakeFiles/cmTC_5ba73.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ba73.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-const-int-float-conversion -o CMakeFiles/cmTC_5ba73.dir/src.c.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c"
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option ‘-Wno-implicit-const-int-float-conversion’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_5ba73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ba73.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_5ba73.dir/src.c.o -o cmTC_5ba73 
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option ‘-Wno-documentation’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-documentation'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e6403/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_e6403.dir/build.make CMakeFiles/cmTC_e6403.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6403.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-documentation -o CMakeFiles/cmTC_e6403.dir/src.c.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c"
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option ‘-Wno-documentation’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_e6403
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6403.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_e6403.dir/src.c.o -o cmTC_e6403 
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option ‘-Wno-null-pointer-subtraction’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-null-pointer-subtraction'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1c943/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_1c943.dir/build.make CMakeFiles/cmTC_1c943.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c943.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -Wno-undef -Wno-cast-align -Wno-implicit-fallthrough -Wno-unused-parameter -Wno-sign-compare -Wno-maybe-uninitialized  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-null-pointer-subtraction -o CMakeFiles/cmTC_1c943.dir/src.c.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c"
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: note: unrecognized command-line option ‘-Wno-null-pointer-subtraction’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_1c943
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c943.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -Wno-undef -Wno-cast-align -Wno-implicit-fallthrough -Wno-unused-parameter -Wno-sign-compare -Wno-maybe-uninitialized  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_1c943.dir/src.c.o -o cmTC_1c943 
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-inconsistent-missing-override’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_50199/fast
+gmake: Warning: File 'Makefile' has modification time 0.39 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_50199.dir/build.make CMakeFiles/cmTC_50199.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File 'CMakeFiles/cmTC_50199.dir/flags.make' has modification time 0.37 s in the future
+Building CXX object CMakeFiles/cmTC_50199.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -std=c++11 -fPIE    -Wno-inconsistent-missing-override -o CMakeFiles/cmTC_50199.dir/src.cxx.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx"
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-inconsistent-missing-override’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_50199
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50199.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_50199.dir/src.cxx.o -o cmTC_50199 
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-implicit-const-int-float-conversion’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_153eb/fast
+gmake: Warning: File 'Makefile' has modification time 0.28 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_153eb.dir/build.make CMakeFiles/cmTC_153eb.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File 'CMakeFiles/cmTC_153eb.dir/flags.make' has modification time 0.26 s in the future
+Building CXX object CMakeFiles/cmTC_153eb.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG -std=c++11 -fPIE    -Wno-implicit-const-int-float-conversion -o CMakeFiles/cmTC_153eb.dir/src.cxx.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx"
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-implicit-const-int-float-conversion’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_153eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_153eb.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_153eb.dir/src.cxx.o -o cmTC_153eb 
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-tautological-undefined-compare’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6622f/fast
+gmake: Warning: File 'Makefile' has modification time 0.5 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_6622f.dir/build.make CMakeFiles/cmTC_6622f.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File 'CMakeFiles/cmTC_6622f.dir/flags.make' has modification time 0.48 s in the future
+Building CXX object CMakeFiles/cmTC_6622f.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -std=c++11 -fPIE    -Wno-tautological-undefined-compare -o CMakeFiles/cmTC_6622f.dir/src.cxx.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx"
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-tautological-undefined-compare’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_6622f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6622f.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_6622f.dir/src.cxx.o -o cmTC_6622f 
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_25f5e/fast
+gmake: Warning: File 'Makefile' has modification time 0.48 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_25f5e.dir/build.make CMakeFiles/cmTC_25f5e.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File 'CMakeFiles/cmTC_25f5e.dir/flags.make' has modification time 0.46 s in the future
+Building CXX object CMakeFiles/cmTC_25f5e.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -std=c++11 -fPIE    -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_25f5e.dir/src.cxx.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx"
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_25f5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25f5e.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_25f5e.dir/src.cxx.o -o cmTC_25f5e 
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-enum-compare-switch’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8beb6/fast
+gmake: Warning: File 'Makefile' has modification time 0.48 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_8beb6.dir/build.make CMakeFiles/cmTC_8beb6.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File 'CMakeFiles/cmTC_8beb6.dir/flags.make' has modification time 0.46 s in the future
+Building CXX object CMakeFiles/cmTC_8beb6.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -std=c++11 -fPIE    -Wno-enum-compare-switch -o CMakeFiles/cmTC_8beb6.dir/src.cxx.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx"
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-enum-compare-switch’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_8beb6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8beb6.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_8beb6.dir/src.cxx.o -o cmTC_8beb6 
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-comma’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-comma'
+===== BUILD LOG =====
+Change Dir: '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2f83e/fast
+gmake: Warning: File 'Makefile' has modification time 0.49 s in the future
+/usr/bin/gmake  -f CMakeFiles/cmTC_2f83e.dir/build.make CMakeFiles/cmTC_2f83e.dir/build
+gmake[1]: Entering directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake[1]: Warning: File 'CMakeFiles/cmTC_2f83e.dir/flags.make' has modification time 0.47 s in the future
+Building CXX object CMakeFiles/cmTC_2f83e.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-implicit-fallthrough -Wno-array-bounds -Wno-stringop-overflow -Wno-stringop-overread -Wno-extra-semi  -O3 -DNDEBUG  -DNDEBUG -std=c++11 -fPIE    -Wno-comma -o CMakeFiles/cmTC_2f83e.dir/src.cxx.o -c "/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx"
+/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: note: unrecognized command-line option ‘-Wno-comma’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_2f83e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f83e.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override -Wno-implicit-fallthrough -Wno-array-bounds -Wno-stringop-overflow -Wno-stringop-overread -Wno-extra-semi  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_2f83e.dir/src.cxx.o -o cmTC_2f83e 
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Leaving directory '/mnt/d/vignesh/Computer Vision/build/CMakeFiles/CMakeTmp'
+gmake: warning:  Clock skew detected.  Your build may be incomplete.
+
+
+===== END =====
+
